@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="12dp">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/widget_text_primary"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="8dp" />
+
+    <!-- Simple news display for fallback -->
+    <TextView
+        android:id="@+id/newsHeadline"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/widget_text_secondary"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:text="@string/loading_news" />
+
+</LinearLayout>

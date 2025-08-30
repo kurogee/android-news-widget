@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/widget_item_background"
+    android:padding="12dp">
+
+    <!-- Title with larger, more readable text -->
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/widget_text_primary"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:lineSpacingExtra="2dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Description with improved readability -->
+    <TextView
+        android:id="@+id/widget_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textSize="13sp"
+        android:textColor="@color/widget_text_secondary"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:lineSpacingExtra="1dp"
+        android:fontFamily="sans-serif" />
+
+    <!-- Time info -->
+    <TextView
+        android:id="@+id/widget_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textSize="11sp"
+        android:textColor="@color/widget_accent"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif" />
+
+</LinearLayout>

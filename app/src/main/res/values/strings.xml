@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NHKニュースウィジェット</string>
+    <string name="widget_title">NHKニュース</string>
+    <string name="widget_description">最新のNHKニュースを表示するダークテーマウィジェット</string>
+    <string name="refresh_news">ニュースを更新</string>
+    <string name="loading_news">ニュースを読み込み中...</string>
+    <string name="no_news_available">ニュースがありません</string>
+    <string name="nhk_news_source">NHK NEWS WEB</string>
+</resources>
